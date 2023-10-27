@@ -1,10 +1,11 @@
-import { Button } from '@/components/ui/button'
-import React from 'react'
+import React from "react";
 
 const DashboardPage = () => {
   return (
-    <Button variant="destructive" size="lg">Dashboard</Button>
-  )
-}
+    <div>
+      <p>Dashboard Page</p>
+    </div>
+  );
+};
 
-export default DashboardPage
+export default DashboardPage;
