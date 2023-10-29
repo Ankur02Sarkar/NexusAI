@@ -11,7 +11,7 @@ export const Loader = () => {
         />
       </div>
       <p className="text-sm text-muted-foreground">
-        NexusAI is thinking...
+        Nexus is thinking...
       </p>
     </div>
   );
