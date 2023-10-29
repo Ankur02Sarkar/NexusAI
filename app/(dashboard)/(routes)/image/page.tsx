@@ -96,7 +96,7 @@ const PhotoPage = () => {
                 <FormItem className="col-span-12 lg:col-span-6">
                   <FormControl className="m-0 p-0">
                     <Input
-                      className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
+                      className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent border-b rounded-none"
                       disabled={isLoading}
                       placeholder="A picture of a horse in Swiss alps"
                       {...field}
@@ -109,7 +109,7 @@ const PhotoPage = () => {
               control={form.control}
               name="amount"
               render={({ field }) => (
-                <FormItem className="col-span-12 lg:col-span-2">
+                <FormItem className="col-span-12 lg:col-span-2 text-black">
                   <Select
                     disabled={isLoading}
                     onValueChange={field.onChange}
@@ -136,7 +136,7 @@ const PhotoPage = () => {
               control={form.control}
               name="resolution"
               render={({ field }) => (
-                <FormItem className="col-span-12 lg:col-span-2">
+                <FormItem className="col-span-12 lg:col-span-2 text-black">
                   <Select
                     disabled={isLoading}
                     onValueChange={field.onChange}
